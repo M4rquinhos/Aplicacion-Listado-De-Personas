@@ -20,8 +20,4 @@ class Persona {
     set apellido(apellido) {
         this._apellido = apellido;
     }
-
-    toString() {
-        return `${this._nombre} ${this._apellido}`;
-    }
 }
